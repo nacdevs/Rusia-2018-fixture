@@ -1,0 +1,361 @@
+.background-score{
+  background:url("../flag/cesped.jpg");
+  border-radius: 4px;cursor:pointer;
+}
+
+.right{
+  float: right;
+  position: relative;
+}
+
+.left{
+  float: left;
+  position: relative;
+}
+
+.equipo{
+  height: 40px;
+  padding-top: 0px;
+  border-radius: 2px;
+}
+.eq1{
+  border-left: 3px solid lightgrey;
+  border-top: 3px solid lightgrey;
+  border-bottom: 3px solid lightgrey;
+  border-radius: 15px 0px 15px 0px;
+  transition: 500ms;
+  z-index: 0;
+}
+
+
+.eq2{
+  border-right: 3px solid lightgrey;
+  border-top: 3px solid lightgrey;
+  border-bottom: 3px solid lightgrey;
+  border-radius: 0px 15px 0px 15px;
+  transition: 500ms;
+  z-index: 0;
+  float: right;
+}
+
+.margin-score-l{
+  margin-left: 10%
+}
+
+.margin-score-r{
+  margin-right: 10%
+}
+
+.labels1{
+  background-color:rgba(47,47,47,0.7);
+  float:right;
+  margin-top:0px;
+  margin-right:-7px;
+  border-radius: 2px;
+
+}
+
+.labels2{
+  background-color:rgba(47,47,47,0.7);
+  float:left;
+  margin-left:-10px;
+  margin-top:0px;
+  border-radius:0px;
+}
+.tiempo{
+  margin-left:7%;
+  margin-top: 4%;
+  border-radius: 5px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.number{
+    background:url("../flag/ledtexture.jpg");
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 10px;
+    background-position: center;
+    border-radius: 2px;
+    color: white;
+}
+.roboto{
+  font-family: 'Roboto', sans-serif;
+}
+
+/*.red{
+  color:#ff1d00;
+}*/
+
+.plastic{
+    background:url("../flag/plastic.jpg");
+    background-size: cover;
+    border-radius: 4px;cursor:pointer;
+}
+
+.white{
+  color:white;
+}
+
+.center2{
+  margin-left: 25%
+}
+.bar{
+  background-color:rgba(47,47,47,1);
+  border-radius: 5px;
+  height:40px;
+  transition: 300ms;
+  position: absolute;
+  bottom: 0;
+  opacity: 0.9;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+.bar:hover{
+  height:100px;
+  opacity: 1;
+}
+
+.containall{
+    border-style: solid;
+    border-width: medium;
+    border-color: rgba(193, 193, 193,0.6);
+    border-radius: 5px;
+
+}
+
+.ruslogo{
+  height:250px;
+  margin-left:5%;
+  background:url("../flag/ruslogo.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+/*Banderas*/
+
+.Argentina{
+    background:url("../flag/Argentina2.png");
+    background-size: cover;
+    border-radius: 4px;cursor:pointer;
+}
+.Croacia{
+    background:url("../flag/Croacia.png");
+    background-size: cover;
+    border-radius: 4px;cursor:pointer;
+}
+.Islandia{
+    background:url("../flag/Islandia2.png");
+    background-size: cover;
+    border-radius: 4px;cursor:pointer;
+}
+.Nigeria{
+    background:url("../flag/Nigeria.png");
+    background-size: cover;
+    border-radius: 4px;cursor:pointer;
+}
+
+.Francia{
+      background:url("../flag/Francia.png");
+      background-size: cover;
+      border-radius: 4px;cursor:pointer;
+
+}
+
+.Rusia{
+  background:url("../flag/Rusia.png");
+  background-size: cover;
+  border-radius: 4px;cursor:pointer;
+}
+.Egipto{
+  background:url("../flag/Egipto.png");
+  background-size: cover;
+  border-radius: 4px;cursor:pointer;
+  }
+.Senegal{
+  background:url("../flag/Senegal.png");
+  background-size: cover;
+  border-radius: 4px;cursor:pointer;
+  }
+.Marruecos{
+  background:url("../flag/Marruecos.png");
+  background-size: cover;
+  border-radius: 4px;cursor:pointer;
+  }
+.Túnez{
+  background:url("../flag/Tunez.png");
+  background-size: cover;
+  border-radius: 4px;cursor:pointer;
+}
+.Brasil{
+  background:url("../flag/Brasil.png");
+  background-size: cover;
+  border-radius: 4px;cursor:pointer;
+  }
+.Uruguay{
+  background:url("../flag/Uruguay.png");
+  background-size: cover;
+  border-radius: 4px;cursor:pointer;
+  }
+
+.Colombia{
+  background:url("../flag/Colombia.png");
+  background-size: cover;
+  border-radius: 4px;cursor:pointer;
+    }
+.Perú{
+  background:url("../flag/Peru.png");
+  background-size: cover;
+  border-radius: 4px;cursor:pointer;
+}
+.Irán{
+  background:url("../flag/Iran.png");
+  background-size: cover;
+  border-radius: 4px;cursor:pointer;
+
+  }
+.Japón{
+  background:url("../flag/Japon.png");
+  background-size: cover;
+  border-radius: 4px;cursor:pointer;
+
+  }
+.Corea{
+  background:url("../flag/Corea del Sur.png");
+  background-size: cover;
+  border-radius: 4px;cursor:pointer;
+
+  }
+.Arabia{
+  background:url("../flag/Arabia Saudita.png");
+  background-size: cover;
+  border-radius: 4px;cursor:pointer;
+
+  }
+.Australia{
+  background:url("../flag/Australia.png");
+  background-size: cover;
+  border-radius: 4px;cursor:pointer;
+
+}
+.México{
+  background:url("../flag/mexico.png");
+  background-size: cover;
+  border-radius: 4px;cursor:pointer;
+
+  }
+.Costa-Rica{
+  background:url("../flag/costar.png");
+  background-size: cover;
+  border-radius: 4px;cursor:pointer;
+  }
+.Panamá{
+  background:url("../flag/panama.png");
+  background-size: cover;
+  border-radius: 4px;cursor:pointer;
+  }
+ .Alemania{
+   background:url("../flag/Alemania.png");
+   background-size: cover;
+   border-radius: 4px;cursor:pointer;
+ }
+ .Reino-Unido{
+   background:url("../flag/Reino Unido.png");
+   background-size: cover;
+   border-radius: 4px;cursor:pointer;
+     }
+  .Bélgica{
+    background:url("../flag/Belgica.png");
+    background-size: cover;
+    border-radius: 4px;cursor:pointer;
+  }
+  .España{
+    background:url("../flag/España.png");
+    background-size: cover;
+    border-radius: 4px;cursor:pointer;
+    }
+  .Polonia{
+    background:url("../flag/Polonia.png");
+    background-size: cover;
+    border-radius: 4px;cursor:pointer;
+  }
+  .Serbia{
+    background:url("../flag/Serbia.png");
+    background-size: cover;
+    border-radius: 4px;cursor:pointer;
+  }
+  .Francia{
+    background:url("../flag/Francia.png");
+    background-size: cover;
+    border-radius: 4px;cursor:pointer;
+    }
+  .Portugal{
+    background:url("../flag/Portugal.png");
+    background-size: cover;
+    border-radius: 4px;cursor:pointer;
+
+    }
+  .Suiza{
+    background:url("../flag/Suiza.png");
+    background-size: cover;
+    border-radius: 4px;cursor:pointer;
+    }
+  .Suecia{
+    background:url("../flag/Suecia.png");
+    background-size: cover;
+    border-radius: 4px;cursor:pointer;
+    }
+  .Dinamarca{
+    background:url("../flag/Dinamarca.png");
+    background-size: cover;
+    border-radius: 4px;cursor:pointer;
+  }
+  .flag {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center ;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .flag {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center ;
+    }
+}
+@media only screen and (min-width: 1000px) {
+  /*Hover banderas*/
+
+/*  .eq2hover{
+    transform: scale(1.15);
+    width:280px;
+    background-position: center;
+    height: 150px;
+    z-index: 9999;
+    float: right;
+  }
+  .eq2-eq1ishover{
+    width: 20px;
+    float: left;
+  }
+
+
+  .eq1hover{
+    transform: scale(1.15);
+    width:280px;
+    background-position: center;
+    height: 150px;
+    z-index: 9999;
+    float: left;
+  }
+  .eq1-eq2ishover{
+    width:20px;
+    float: right;
+  }*/
+
+
+
+
+
+
+}
